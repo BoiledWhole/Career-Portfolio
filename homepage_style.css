@@ -68,21 +68,21 @@ img {
 
 .leftcolumn {   
   float: left;
-  width: 25%;
+  width: 35%;
   font-family: DejaVu Sans Mono, monospace;
   border: 20px solid rgb(132, 141, 156);
 }
 
 .middlecolumn {
 	float: left;
-	width: 50%;
+	width: 40%;
 	font-family: DejaVu Sand Mono, monospace;
 	border: 20px solid rgb(132, 141, 156);
 }
 
 .rightcolumn {
   float: left;
-  width: 40%;
+  width: 25%;
   border: 20px solid rgb(132, 141, 156);
 }
 
