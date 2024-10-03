@@ -55,64 +55,9 @@ li a:hover {
 }
 
 
-
-img {
-	border: 2px solid black;
-}
-
-p {
-	line-height: 1.8;
-}
-
-
-
-* {
-  box-sizing: border-box;
-}
-
-.leftcolumn {   
-  float: left;
-  width: 33%;
-  font-family: DejaVu Sans Mono, monospace;
-  border: 20px solid rgb(132, 141, 156);
-}
-
-.leftcolumn h5 {
-	line-height: 1.8;
-}
-
-.middlecolumn {
-	float: left;
-	width: 40%;
-	font-family: DejaVu Sand Mono, monospace;
-	border: 20px solid rgb(132, 141, 156);
-}
-
-.rightcolumn {
-  float: left;
-  width: 27%;
-  font-family: DejaVu Sand Mono, monospace;
-  border: 20px solid rgb(132, 141, 156);
-}
-
 .card {
-  background-color: white;
+	line-height: 1.8;
+	font-family: DejaVu Sans Mono, monospace;
+  border: 20px solid rgb(132, 141, 156);
   padding: 20px;
-  margin-top: 0px;
-}
-
-.card a {
-	background-color: white;
-  padding: 20px;
-  margin-top: 0px;
-}
-
-.rightcolumn img {
-	border: none;
-}
-
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
 }
