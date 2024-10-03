@@ -1,0 +1,142 @@
+a {
+	float: left;
+	background-color: rgb(245, 227, 203);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+  padding: 20px 16px;
+  display: block;
+  color: rgb(62, 54, 66);
+  text-decoration: none;
+  font-family: DejaVu Sans Mono, monospace;
+  font-weight: bold;
+  border-right: 2px solid white;
+}
+
+a:hover {
+	background-color: rgb(184, 169, 151);
+}
+
+li a:first-child {
+	border-left: 2px solid white;
+	border-right: none;
+}
+
+ol {
+	list-style-type: none;
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(245, 227, 203);
+}
+
+li {
+	float: right;
+	margin: 0;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a {
+  display: block;
+  color: rgb(62, 54, 66);
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-family: DejaVu Sans Mono, monospace;
+  margin: 0;
+}
+
+li a:hover {
+	background-color: rgb(184, 169, 151);
+}
+
+
+
+img {
+	border: 2px solid black;
+}
+
+p {
+	line-height: 1.8;
+}
+
+.leftcolumn h2 {
+	padding: 20px;
+	padding-bottom: 0px;
+}
+
+.leftcolumn h5 {
+	padding: 20px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 51%;
+  font-family: DejaVu Sans Mono, monospace;
+  border: 20px solid rgb(132, 141, 156);
+}
+
+.leftcolumn h5 {
+	line-height: 1.8;
+}
+
+.rightcolumn {
+  float: left;
+  width: 49%;
+  font-family: DejaVu Sand Mono, monospace;
+  border: 20px solid rgb(132, 141, 156);
+  height: 2100px;
+}
+
+
+
+
+.card {
+	background-color: white;
+  padding: 20px;
+}
+
+.sample {
+	background-color: white;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+.cardclass {
+  background-color: white;
+  padding: 20px;
+  position: relative;
+  top: 150px;
+}
+
+.deck {
+	background-color: white;
+	padding: 20px;
+	position: relative;
+	top: 350px;
+}
+
+.main {
+	background-color: white;
+	padding: 20px;
+	position: relative;
+	top: 790px;
+}
+
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}

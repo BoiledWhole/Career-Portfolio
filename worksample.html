@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="worksample_style.css">
+	<title>
+		Lauren Pinner
+	</title>
+</head>
+
+
+<body>
+
+	<a href="index.html">Lauren Pinner</a>
+
+	<ol>
+		<li><a href="resume.html">Resume</a></li>
+		<li><a href="worksample.html">Work Sample</a></li>
+		<li><a href="careersum.html">Career Summary and Goals</a></li>
+	</ol>
+
+	<div class="row">
+		<div class="leftcolumn">
+			<h2>Work Sample</h2>
+			<h5>Java Blackjack Text Game</h5>
+			<div class="card">
+				<img src="sample.png" alt="Sample" style="width:640px;height:333px;">
+				<hr>
+
+				<img src="card1.png" alt="Card Class" style="width:640px;height:316px;">
+				<hr>
+
+				<img src="deck1.png" alt="Card Class" style="width:640px;height:352px;">
+				<img src="deck2.png" alt="Card Class" style="width:640px;height:341px;">
+				<img src="deck3.png" alt="Card Class" style="width:640px;height:115px;">
+				<hr>
+
+				<img src="main1.png" alt="Card Class" style="width:640px;height:354px;">
+				<img src="main2.png" alt="Card Class" style="width:640px;height:343px;">
+				<img src="main3.png" alt="Card Class" style="width:640px;height:342px;">
+				<img src="main4.png" alt="Card Class" style="width:640px;height:46px;">				
+			</div>
+		</div>
+
+		<div class="rightcolumn">
+			<div class="sample">
+				<p>
+					This is a project I worked on in April 2024. I programmed in Java a blackjack card game that allows the user to make a bet with starting cash and "hit" or "stand" based on the cards they're dealt. I created two separate classes, Card.java and Deck.java, to store information about value and suit, then subtract randomly drawn cards from the deck as if it were a real game.<br><br>
+					The image to the left shows a sample game where the user bet $400 and since they had a blackjack, their total earnings increased to $1100. They played another round and lost $300. The game's final stats are displayed after the user ends the game.
+				</p>
+			</div>
+			<div class="cardclass">
+				<p>
+					This shows the code for Card.java class. It contains each card's information such as suit type and value, as well as the points associated with the value.
+				</p>
+			</div>
+			<div class="deck">
+				<p>
+					On the left, this is the code for the Deck.java class. It contains the original deck, the user's cards, and the dealer's cards.<br><br>
+					The method drawCards randomly draws a specified number of cards to the specified recipient from the deck. This way, the same card won't show up multiple times in the same game.<br><br>
+					The methods countUserPoints and countDealerPoints do exactly as it implies: they total the value of the user's and dealer's and return the points. Aces being considered either one point or eleven points is also accounted for.
+				</p>
+			</div>
+			<div class="main">
+				<p>
+					Everything is put together in a game loop here. Until the user ends the game by entering 1, the console will ask for a bet and draw cards. Also, if the user runs out of money, the game will end. After it ends, the stats will be displayed, showing how many wins, losses, pushes, and money they have remaining.<br><br>
+					The logical statements account for all possible outcomes of the game and report the winner. Each declared winning statement adds to the wins, losses, and pushes counter.
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
